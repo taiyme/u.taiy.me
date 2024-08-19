@@ -8,6 +8,8 @@ taiy専用URL短縮サービスのソースコードです。 <https://u.taiy.me
   - TypeScript <https://www.typescriptlang.org/>
 - フレームワーク
   - Hono <https://hono.dev/>
+- Linter
+  - ESLint (Flat Config) <https://eslint.org/>
 
 ## 開発
 

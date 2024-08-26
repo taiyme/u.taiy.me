@@ -15,20 +15,20 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "hono": "^4.5.8"
+    "hono": "^4.5.9"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240821.1",
-    "@taiyme/eslint-config": "^0.0.2",
+    "@taiyme/eslint-config": "^0.1.0",
     "@types/node": "^22.5.0",
     "@typescript-eslint/parser": "^8.2.0",
-    "eslint": "^9.9.0",
+    "eslint": "^9.9.1",
     "eslint-config-flat-gitignore": "^0.1.8",
     "globals": "^15.9.0",
     "typescript": "^5.5.4",
-    "wrangler": "^3.72.1"
+    "wrangler": "^3.72.2"
   },
-  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1",
   "pnpm": {
     "overrides": {
       "eslint": "$eslint"

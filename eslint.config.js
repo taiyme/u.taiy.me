@@ -10,12 +10,18 @@ const files = ['**/*.{js,ts}'];
 export default [
   gitignore(),
   {
+    name: 'u.taiy.me/ignores',
+    ignores: [
+      'patches/**',
+      'pnpm-lock.yaml',
+    ],
+  },
+  {
+    name: 'u.taiy.me/setup',
     languageOptions: {
       globals: {},
       parser: tsEslintParser,
       parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
         project: './tsconfig.json',
         tsconfigRootDir: import.meta.dirname,
       },

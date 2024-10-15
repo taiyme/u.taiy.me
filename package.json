@@ -15,19 +15,19 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "hono": "4.6.3"
+    "hono": "4.6.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240925.0",
-    "@taiyme/eslint-config": "0.4.6",
-    "@types/node": "22.7.4",
-    "@typescript-eslint/parser": "8.8.0",
-    "eslint": "9.11.1",
+    "@cloudflare/workers-types": "4.20241011.0",
+    "@taiyme/eslint-config": "0.5.0",
+    "@types/node": "22.7.5",
+    "@typescript-eslint/parser": "8.9.0",
+    "eslint": "9.12.0",
     "eslint-config-flat-gitignore": "0.3.0",
-    "typescript": "5.6.2",
-    "wrangler": "3.79.0"
+    "typescript": "5.6.3",
+    "wrangler": "3.80.4"
   },
-  "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca",
+  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
   "pnpm": {
     "overrides": {
       "eslint": "$eslint"

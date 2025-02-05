@@ -15,19 +15,19 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "hono": "4.6.16"
+    "hono": "4.6.20"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250109.0",
-    "@taiyme/eslint-config": "0.6.0",
-    "@types/node": "22.10.5",
-    "@typescript-eslint/parser": "8.19.1",
-    "eslint": "9.18.0",
-    "eslint-config-flat-gitignore": "1.0.0",
+    "@cloudflare/workers-types": "4.20250204.0",
+    "@taiyme/eslint-config": "0.7.0",
+    "@types/node": "22.13.1",
+    "@typescript-eslint/parser": "8.23.0",
+    "eslint": "9.19.0",
+    "eslint-config-flat-gitignore": "2.0.0",
     "typescript": "5.7.3",
-    "wrangler": "3.101.0"
+    "wrangler": "3.107.3"
   },
-  "packageManager": "pnpm@10.0.0",
+  "packageManager": "pnpm@10.2.0",
   "engines": {
     "node": ">=22",
     "pnpm": ">=10"

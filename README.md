@@ -4,6 +4,8 @@ taiy専用URL短縮サービスのソースコードです。 <https://u.taiy.me
 
 ## 仕様
 
+- パッケージ管理
+  - pnpm <https://pnpm.io/>
 - 言語
   - TypeScript <https://www.typescriptlang.org/>
 - フレームワーク
@@ -13,11 +15,9 @@ taiy専用URL短縮サービスのソースコードです。 <https://u.taiy.me
 
 ## 開発
 
-前提: Corepackが有効であること
-
 ```sh
 # 依存関係のインストール
-pnpm i
+pnpm install
 
 # 本番環境にデプロイ
 pnpm run deploy
